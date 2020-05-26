@@ -1,3 +1,4 @@
+/* Global Styles */
 body{
 	padding-top: 54px;
 
@@ -23,4 +24,28 @@ body{
 
 .portfolio-item{
 	margin-bottom: 30px;
+}
+
+/* End Global Styles */
+
+/* Navigation Background Color */
+.bg-dark {
+	background-color: navy !important;
+}
+
+
+/* Call  To Action Button Hover State */
+.btn-secondary:hover{
+	color: #fff;
+	background-color: #000080;
+	border-color: #000080;
+
+}
+/*Button Hover State */
+
+.btn-primary:hover{
+	color: #fff;
+	background-color:#000080;
+	border-color: #000080;
+
 }

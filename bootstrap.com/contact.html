@@ -11,7 +11,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 
-    <title>Boostrap | Services </title>
+    <title>Boostrap | Contact </title>
 
 
   </head>
@@ -85,86 +85,79 @@
 <div class="container">
 
     <!-- Page Title -->
-      <h1 class="mt-4 mb-3">Services </h1>
+      <h1 class="mt-4 mb-3">Contact</h1>
 
     <!-- Start Breadcrumb -->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li class="breadcrumb-item active">Services</li>
+        <li class="breadcrumb-item active">Contact</li>
       </ol>
     <!-- End Breadcrumb -->
 
-    <!-- Start Price Table -->
-  <div class="row">
+   
+    <!--  Start Contact Form -->
+      <div class="row">
+        <div class ="col-lg-8 mb-4">
+          <h3>Send us a message</h3>
+          <form name="sentMessage" id="contactForm" novalidate> 
 
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h3 class="card-header">Basic</h3>
-          <div class="card-body">
-            <div class="display-4">$19.99</div>
-            <div class="font-italic">per month</div>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">This is text 1</li>
-            <li class="list-group-item">This is text 2</li>
-            <li class="list-group-item">This is text 3</li>
-            <li class="list-group-item">
-                <a href="#" class="btn btn-primary">Sign Up</a>
-            </li>
-          </ul>
+              <div class="control-group form-group">
+                <div class="controls">
+                    <label>Full Name: </label>
+                    <input type="text" class="form-control" id="name" required date-validation-required-message="Please Enter Your Name"> 
+                    <p class="help-block"></p>
+
+                </div>
+            </div>
+
+             <div class="control-group form-group">
+                <div class="controls">
+                    <label>Phone Number: </label>
+                    <input type="text" class="form-control" id="name" required date-validation-required-message="Please Enter Your Phone Number"> 
+                    <p class="help-block"></p>
+
+                </div>
+            </div>
+
+             <div class="control-group form-group">
+                <div class="controls">
+                    <label>Email Adress: </label>
+                    <input type="text" class="form-control" id="name" required date-validation-required-message="Please Enter Email Adress"> 
+                    <p class="help-block"></p>
+
+                </div>
+            </div>
+
+
+            <div class="control-group form-group">
+                <div class="controls">
+                  <label>Message: </label>
+                  <textarea rows="10" cols="100" class="form-control" id="message". required date-validation-required-message="Please Enter Message" maxlength="999" style="resize:none">  </textarea>
+                </div>
+            </div>
+
+
+              <div id="success"></div>
+              <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message </button>
+
+          </form>
+
         </div>
-      </div>
 
-        <!-- Plus Value -->
-
-        <div class="col-lg-4 mb-4">
-        <div class="card card-outline-primary h-100">
-          <h3 class="card-header">Plus</h3>
-          <div class="card-body">
-            <div class="display-4">$39.99</div>
-            <div class="font-italic">per month</div>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">This is text 1</li>
-            <li class="list-group-item">This is text 2</li>
-            <li class="list-group-item">This is text 3</li>
-            <li class="list-group-item">
-                <a href="#" class="btn btn-primary">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-        <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h3 class="card-header">Ulta</h3>
-          <div class="card-body">
-            <div class="display-4">$159.99</div>
-            <div class="font-italic">per month</div>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">This is text 1</li>
-            <li class="list-group-item">This is text 2</li>
-            <li class="list-group-item">This is text 3</li>
-            <li class="list-group-item">
-                <a href="#" class="btn btn-primary">Sign Up</a>
-            </li>
-          </ul>
-        </div>
       </div>
 
 
 
-    </div>
-  </div>
+
+    <!-- End Contact Form -->
 
 </div>
 <!-- End Container -->
-<br>
-<br>
-<br>
+
+
+
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
